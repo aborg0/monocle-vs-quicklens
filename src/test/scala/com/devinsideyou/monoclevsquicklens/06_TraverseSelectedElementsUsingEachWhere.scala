@@ -3,7 +3,7 @@ package monoclevsquicklens
 
 import org.scalatestplus.scalacheck._
 
-class `06_TraverseSelected ElementsUsingEachWhere` extends TestSuite with Checkers {
+class `06_TraverseSelectedElementsUsingEachWhere` extends TestSuite with Checkers {
   case class Person(addresses: List[Address])
   case class Address(street: Option[Street])
   case class Street(name: String)
